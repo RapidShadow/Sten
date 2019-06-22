@@ -1,0 +1,235 @@
+
+/* Index Stuff */
+#logo {
+  height: 90px;
+  width: 75px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 20px;
+  margin-left: 6%;
+  padding: 0;
+  display: inline-block;
+  margin-right: 0;
+  padding-right: 0
+}
+
+li {
+  display: inline;
+}
+
+nav {
+  margin-top: 30px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 300;
+  font-family: 'Rubik', sans-serif;
+  font-variant: small-caps;
+  font-size: 25px;
+  color: black;
+  vertical-align: middle;
+  margin-right: 10px;
+  letter-spacing: 3px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#cart {
+  margin-left: 265px;
+  height: 35px;
+  width: 35px;
+  margin-right: 6%;
+  padding: 15px 15px 15px 15px;
+  background-size: 100px;
+  margin-top:0px;
+}
+
+#cart:hover {
+  background-color: lightgrey;
+  border-radius: 20px;
+  background-size: 100px;
+
+}
+
+.image {
+  display: block;
+  margin: 0 auto;
+  margin-top: 60px;
+  text-align: center;
+  width: 90%;
+  height: auto;
+  ;
+}
+
+.line {
+  text-align: center;
+  width: 60%;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: block;
+  border-color: darkgrey;
+}
+
+h1 {
+ font-family: 'Poppins', sans-serif;
+  text-align: left;
+  font-size: 100px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+p {
+font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/* Shop stuff */
+#display-area {
+  background-color: white;
+  text-align: center;
+  margin-bottom: -30px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: white;
+  width: 20%;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  display: inline-block;
+  margin: 40px 20px 40px 20px;
+  opacity: .85;
+  vertical-align: top;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.poster {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.stuff {
+  text-align: center;
+  font-variant: small-caps;
+  font-family: "rubik"
+}
+
+hr {
+  margin-top: 30px;
+  width: 80%;
+  text-align: center;
+}
+#copyright{
+  text-align: center;
+}
+/* Demon Stuff */
+#demlogo {
+  text-align: center;
+}
+#demlogo2 {
+  text-align: center;
+}
+
+.dem {
+  color: darkred;
+  font-family: "wingdings";
+  text-align: left;
+}
+/*Contact page*/
+h2{
+font-family: 'Poppins', sans-serif;
+  text-align: left;
+  margin-left:8%
+}
+#questions{
+  margin:30px 0 30px 5%;
+  font-size:60px;
+  text-align: center;
+}
+.contacts{
+  margin:30px 0 30px 0;
+  text-align:center;
+}
+#back {
+  border-style: solid;
+  border-color: black;
+  display:inline-block;
+  padding: 10px 25px;
+  color: black;
+  margin:0 0 0 5%;
+}
+#backdiv{
+  display:block;
+  margin:0 0 0px 0;
+}
+.pName{
+  margin-top: 0px;
+font-family: 'Poppins', sans-serif;
+  font-variant: small-caps;
+  font-size:70px;
+  text-align: left;
+  display:inline;
+  margin-right:10%;
+  margin-left:0;
+
+  vertical-align: top;
+}
+.pImage{
+  margin-top:40px;
+  display:block;
+  float: left;
+  margin-right:100px;
+  margin-left:8%;
+  margin-bottom:50px;
+
+}
+.text {
+  display:block;
+  text-align:left;
+}
+#content{
+  text-align: left;
+  display: inline;
+  float: left;
+}
+.desc{
+  margin-top: 10px;
+  margin-left: 10%;
+    margin-left: 10%;
+    font-size:30px;
+    font-variant: normal;
+}
+.buy{
+  font-family:"Rubik";
+  font-variant: small-caps;
+  border-style: solid;
+  border-color: black;
+  display:inline-block;
+  padding: 10px 25px;
+  color: black;
+  margin:10px 0 0 0%;
+  text-align:right;
+
+}
+#hidden{
+  text-align: center;
+  display:none;
+  color:darkred;
+}
